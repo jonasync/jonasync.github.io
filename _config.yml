@@ -1,1 +1,21 @@
-theme: jekyll-theme-cayman
+title: Jonathan Martín
+description: Web & Security Engineer
+site_title: '@jonasync - Jonathan Martín'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: jonasync
+blog_url: https://medium.com/@mibarbaroja
+portfolio_url: http://www.domestika.org/es/mibarbaroja/portfolio
+linkedin_url: https://es.linkedin.com/in/mibarbaroja
+email: jony.es@gmail.com
+twitter_username: jonasync
+
+# absolute or relative
+profile_picture: assets/images/pp.jpg
+
+# Google Analytics ID
+google_analytics: 

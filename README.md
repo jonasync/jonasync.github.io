@@ -1,19 +1,29 @@
-[Portfolio](http://www.domestika.org/es/mibarbaroja/portfolio){: .btn}
-[Blog](https://medium.com/@mibarbaroja){: .btn}
+# Portfolio
 
-## ![Image](https://s.gravatar.com/avatar/025555993cde56083de52b05faec3c1f?s=115)
-## Jonathan Martín Pinero
+A simple and modern portfolio template that is lightweight, mobile responsive and looks modern. 
 
-Lorem ipsum dolor sit amet.
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [Installation](#installation)
 
-{% include button.html url="https://twitter.com/mibarbaroja" %}
-{% include button.html url="https://github.com/mibarbaroja" %}
-{% include button.html url="https://es.linkedin.com/in/mibarbaroja" %}
+### Demo
+[abhn.io](https://abhn.io)
 
+### Screenshots
+![homepage](tmp/screenshot.jpg?raw=true "Homepage")
 
-Full Stack developer, living in Madrid, Spain. More than 10 years developing projects under the LAMP stack but currently turning the wonderful and dark side of Javascript. Interested in:
+### Features
+- Single page portfolio made with vanilla CSS and jQuery
+- Sections: Landing, About, Skills (with neat bar graphs), Projects, Contact
+- Smooth scrolling
+- Fully mobile responsive, made with latest CSS3 grid and flexbox, polyfills included
+- Lightweight and easily customizable
 
-``#Javascript``, ``#Node.js``, ``#Vue.js``, ``#MongoDB``, ``#MySQL``, ``#Laravel.``
+### Installation
+- Clone this repository and in the settings, set up Github pages in the setting and optionally a custom domain. The site is live now on `your-username.github.io/portfolio`.
+- In the config variables, add your details and if you use Google Analytics, add your Publisher ID in the `google_analytics` variable.
+- You can add/remove sections from the `_layouts/default.html` file, and then adding the corresponding html file in `_includes/` directory.
 
-
-I spend my free time playing with arduino, riding my motorcycle, or doing CrossFit.
+### License
+GPL
